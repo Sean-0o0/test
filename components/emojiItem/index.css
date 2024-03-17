@@ -1,0 +1,95 @@
+.emoji-box {
+	border-top: 1px solid #dadbde;
+	background-color: #EDEDED;
+	height: 360px;
+	transition: height 1s;
+}
+
+.emoji-title {
+	height: 100upx;
+	padding-left: 22upx;
+}
+
+.popover-box {
+	width: 93upx;
+	height: 190upx;
+	position: fixed;
+	z-index: 10;
+}
+
+.popover-top {
+	background-color: white;
+	width: 93upx;
+	height: 120upx;
+	border-radius: 18upx;
+	justify-content: center;
+	align-items: center;
+}
+
+.popover-bottom-rectangle {
+	width: 60upx;
+	height: 70upx;
+	background-color: white;
+	margin-left: 18upx;
+	border-radius: 15upx;
+	border-bottom-left-radius: 15upx;
+	border-bottom-right-radius: 15upx;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.popover-bottom-triangle {
+	width: 0;
+	height: 0;
+	border-left: 15upx solid transparent;
+	border-right: 15upx solid transparent;
+	border-top: 25upx solid white;
+	margin-left: 32upx;
+}
+
+.emoji-item-box {
+	width: 750upx;
+	height: 360px;
+}
+
+.items-wrapper {
+	width: 750upx;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.emoji-item {
+	width: 93upx;
+	height: 100upx;
+	justify-content: center;
+	align-items: center;
+}
+
+/* 表情图标 */
+.emoji-icon {
+	width: 56upx;
+	height: 56upx;
+}
+
+.popover-emoji-icon {
+	width: 56upx;
+	height: 56upx;
+	transform: scale(1.1);
+}
+
+/* 删除按钮 */
+.emoji-delete {
+	width: 80upx;
+	height: 60upx;
+	background-color: #fff;
+	position: absolute;
+	bottom: 18upx;
+	right: 15upx;
+	border-radius: 15upx;
+}
+
+.emoji-delete-image {
+	width: 60upx;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 10upx;
+}

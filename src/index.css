@@ -1,0 +1,37 @@
+.emoji-box {
+	border-top: 1px solid #dadbde;
+	background-color: #EDEDED;
+	height: 400upx;
+}
+
+.emoji-item-box {
+	width: 750upx;
+	height: 400upx;
+	flex-flow: row wrap;
+	overflow: hidden;
+	overflow-y: auto;
+}
+
+.emoji-item {
+	width: 93upx;
+	height: 100upx;
+	justify-content: center;
+	align-items: center;
+}
+
+/* 表情图标 */
+.emoji-icon {
+	width: 56upx;
+	height: 56upx;
+}
+
+/* 删除按钮 */
+.emoji-delete {
+	width: 76upx;
+	height: 60upx;
+	background-color: #fff;
+	position: fixed;
+	bottom: 15upx;
+	right: 15upx;
+	border-radius: 15upx;
+}

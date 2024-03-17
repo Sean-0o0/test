@@ -1,0 +1,8 @@
+{
+  "name": "@sihe/emoji-item",
+  "version": "1.2.3",
+  "description": "emoji表情组件",
+  "main": "./index.js",
+  "author": "zhong.haixiu",
+  "license": "ISC"
+}
