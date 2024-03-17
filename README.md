@@ -8,7 +8,7 @@ npm i @sihe/emoji-item -S
 
 
 ```
-//##两点小改变00000
+//##两点小改变
 // 组件引入 
 import emojiItem from '@sihe/emoji-item';
 // 方法引入
