@@ -6,7 +6,9 @@ npm i @sihe/emoji-item -S
 
 ##### 页面引入
 
+
 ```
+//##一点小改变
 // 组件引入 
 import emojiItem from '@sihe/emoji-item';
 // 方法引入
