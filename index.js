@@ -4,4 +4,3 @@ import deleteEmoji from './utils/deleteEmoji.js';
 import EMOJI_LIST from './static/emoji/emoji.js';
 
 export { emojiItem as default, replaceEmoji, deleteEmoji, EMOJI_LIST };
-//55555
